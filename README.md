@@ -3,9 +3,18 @@
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucio-lemos-a550441a1/)](https://www.linkedin.com/in/lucio-lemos-a550441a1/)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/lucciolemos)](https://twitter.com/lucciolemos)
 [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://studio.youtube.com/channel/UCrNM1nr2nw0lSqMD10m6rLw)](#)
-## EXPRESS_GENERATOR_PROJECT 📌: 
-Use o gerador de aplicativos do express para criar rapidamente uma estrutura básica de aplicativo.
-Instale o express com o comando `$ npm install express-generator -g`.
+## Começando com o **EXPRESS** 📌: 
+Use o gerador de aplicativos do express para criar rapidamente uma estrutura básica de aplicativo, seguindo os passos abaixo descritos.
+1. Instale o Node `$ sudo apt-get install nodejs`. O NPM é o Gerenciador de Pacotes do Node (Node Package Manager). Node e NPM são empacotados juntos.
+2. Instale o express com o comando `$ npm install express-generator -g`.
+3. Crie o diretório da sua aplicação express com `$ express myapp`.
+4. Navegue para dentro de `myapp` com o comando `$ cd myapp`.
+5. Instale as dependêcias do Node, que o projeto necessita com `$ npm install`;  
+6. Startando a aplicação com `$ DEBUG=myapp:* npm start`. 
+7. Rodando a aplicação digitando no browser `http://localhost:3000`.
+
+
+
 ### Resumo das rotinas que seráo executadas no _bash_:
 - Listando arquivos/diretórios `$ ls -l`;
 - Criando o diretório do projeto `$ mkdir express_generator_project`;
