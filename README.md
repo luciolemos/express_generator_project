@@ -5,26 +5,19 @@
 [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://studio.youtube.com/channel/UCrNM1nr2nw0lSqMD10m6rLw)](#)
 ## Começando com o **EXPRESS** 📌: 
 Use o gerador de aplicativos do express para criar rapidamente uma estrutura básica de aplicativo, seguindo os passos abaixo descritos.
-1. Instale o Node `$ sudo apt-get install nodejs`. O NPM é o Gerenciador de Pacotes do Node (Node Package Manager). Node e NPM são empacotados juntos.
-2. Instale o express com o comando `$ npm install express-generator -g`.
-3. Crie o diretório da sua aplicação express com `$ express myapp`.
-4. Navegue para dentro de `myapp` com o comando `$ cd myapp`.
-5. Instale as dependêcias do Node, que o projeto necessita com `$ npm install`;  
-6. Startando a aplicação com `$ DEBUG=myapp:* npm start`. 
-7. Rodando a aplicação digitando no browser `http://localhost:3000`.
-
-
-
 ### Resumo das rotinas que seráo executadas no _bash_:
-- Listando arquivos/diretórios `$ ls -l`;
-- Criando o diretório do projeto `$ mkdir express_generator_project`;
-- Alternando para o diretório do projeto `$ cd express_generator_project`;
-- Instalando as dependêcias do projeto `$ npm install`;
-- Carregando o projeto no vscode com `$ code .`;
-- Abrindo o terminal no vscode `Ctrl+J`;
+- Instale o Node `$ sudo apt-get install nodejs`. O NPM é o Gerenciador de Pacotes do Node (Node Package Manager). Node e NPM são empacotados juntos.
+- Instale o express com o comando `$ npm install express-generator -g`.
+- Crie o diretório da sua aplicação express com `$ express myapp`.
+- Navegue para dentro de `myapp` com o comando `$ cd myapp`.
+- Instale as dependêcias do Node, que o projeto necessita com `$ npm install`;  
 - Verificandoa se há atividade na porta 3000 `$ sudo netstat -nlp | grep :3000`;
 - Interrompendo o processo na porta 3000, caso haja `$ kill 11020`; 
-- Rodando o projeto `$ DEBUG=express:* npm start`.
+- Carregando o projeto no vscode com `$ code .`;
+- Abrindo o terminal no vscode `Ctrl+J`;
+- Startando a aplicação com `$ DEBUG=myapp:* npm start`. 
+- Rodando a aplicação digitando no browser `http://localhost:3000`.
+
 ### Etapas da criação do projeto no terminal
 #### ✔️ Listando arquivos/diretórios em vscode com `$ ls -l`:
     luciolemos@dev:~/vscode$ ls -l
