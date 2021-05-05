@@ -74,11 +74,11 @@ Instale o express com o comando `$ npm install express-generator -g`.
     git branch -M main
     git remote add origin https://github.com/luciolemos/express_generator_project.git
     git push -u origin main
-#### ✔️ A CLI `echo "# express_generator_project" >> README.md`, 
+#### ✔️ A CLI `echo "# express_generator_project" >> README.md`, cria o arquivo README.md na estrutura do projeto.
 #### ✔️ Iniciando o projeto com o git.
     luciolemos@dev:~/vscode/express_generator_project$ git init
     Initialized empty Git repository in /home/luciolemos/vscode/express_generator_project/.git/
-#### ✔️ Adicionando o projeto ao repositório local
+#### ✔️ Adicionando o arquivo **README.md** ao repositório local com `git add README.md`.
     luciolemos@dev:~/vscode/express_generator_project$ git add .
 #### ✔️ Salvando as alterações feitas no repositório local.
     luciolemos@dev:~/vscode/express_generator_project$ git commit -m "first commit"
