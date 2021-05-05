@@ -6,7 +6,8 @@
 [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://studio.youtube.com/channel/UCrNM1nr2nw0lSqMD10m6rLw)](#)
 
 ## EXPRESS_GENERATOR_PROJECT 📌: 
-
+Use o gerador de aplicativos do express para criar rapidamente uma estrutura básica de aplicativo.
+Instale o express com o comando `$ npm install express-generator -g`.
 ### Resumo das rotinas que seráo executadas no _bash_:
 - Listando arquivos/diretórios `$ ls -l`;
 - Criando diretórios `$ mkdir`;
